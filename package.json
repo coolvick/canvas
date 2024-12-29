@@ -1,0 +1,16 @@
+{
+  "name": "canvas",
+  "version": "1.0.0",
+  "description": "test-project",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "start npx tsc main.ts --watch & start watch-http-server ./"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.7.2",
+    "watch-http-server": "^0.7.6"
+  }
+}
